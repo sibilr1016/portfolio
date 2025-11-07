@@ -51,7 +51,7 @@ const Projects = () => {
         <div className="flex flex-col gap-8 text-left">
           <div className="flex flex-col w-full max-w-xs border-2 bg-[#0000004d] rounded-2xl pb-4">
             <div className="rounded-2xl">
-              <img src="12.png" className="rounded-t-2xl" alt="" />
+              <img src="13.png" className="rounded-t-2xl" alt="" />
             </div>
             <div className="flex flex-col p-6">
               <h4 className="text-2xl font-medium mb-2">Project 2</h4>
