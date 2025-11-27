@@ -53,7 +53,8 @@ const Home = () => {
       <div className="flex flex-col md:flex-row gap-2">
         <button className="px-8 py-3 rounded-lg cursor-pointer text-sm font-medium bg-blue-400/80 md:mb-0 mb-2">
           <a
-            href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
+            href="https://drive.google.com/file/d/14QsvFyGBz5bzKQyP2OTCP2bEdRjVu-6K/view?usp=drive_link"
+            // https://drive.google.com/file/d/14QsvFyGBz5bzKQyP2OTCP2bEdRjVu-6K/view?usp=drive_link
             target="_blank"
             rel="noopener noreferrer"
             // className="px-8 py-3 rounded-lg cursor-pointer text-sm font-medium bg-blue-400/80 md:mb-0 mb-2 hover:bg-blue-500 transition-all text-white"

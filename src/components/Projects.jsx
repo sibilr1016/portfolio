@@ -16,7 +16,7 @@ const Projects = () => {
       </p>
       <div className="flex flex-col md:flex-row gap-6">
         <div className="flex flex-col gap-8 text-left">
-          <div className="flex flex-col w-full max-w-xs border-2 bg-[#0000004d] rounded-2xl pb-4">
+          <div className="flex h-full flex-col w-full max-w-xs border-2 bg-[#0000004d] rounded-2xl pb-4">
             <div className="rounded-2xl">
               <img src="12.png" className="rounded-t-2xl" alt="" />
             </div>
@@ -39,11 +39,22 @@ const Projects = () => {
                   React Icons
                 </span>
               </div>
-              <div>
+              {/* <div>
                 <button className="flex items-center justify-center gap-2 bg-[#282727] p-2 rounded-lg px-2 py-1">
                   <FaGithub />
                   <span>Code</span>
                 </button>
+              </div> */}
+              <div>
+                <a
+                  href="https://github.com/sibilr1016/portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-[#282727] p-2 rounded-lg px-2 py-2 cursor-pointer"
+                >
+                  <FaGithub />
+                  <span>Code</span>
+                </a>
               </div>
             </div>
           </div>
@@ -54,11 +65,11 @@ const Projects = () => {
               <img src="13.png" className="rounded-t-2xl" alt="" />
             </div>
             <div className="flex flex-col p-6">
-              <h4 className="text-2xl font-medium mb-2">Project 2</h4>
+              <h4 className="text-2xl font-medium mb-2">CycleKart</h4>
               <p className="font-normal text-sm text-gray-400 mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
-                esse natus molestiae libero aperiam neque quae magnam, qui
-                earum? Sunt voluptas natus.
+                A full-featured e-commerce application developed using the MERN
+                stack, designed to deliver a seamless shopping experience for
+                users and robust administrative control for store management.
               </p>
               <div className="flex flex-wrap gap-2 text-xs text-gray-800 font-medium mb-4">
                 <span className="bg-stone-50 px-2 py-1  rounded-xl">React</span>
@@ -73,24 +84,59 @@ const Projects = () => {
                   MongoDB
                 </span>
                 <span className="bg-stone-50 px-2 py-1  rounded-xl">
-                  Razorpay
+                  Reactjs
                 </span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">
+                  Redux Toolkit
+                </span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">
+                  RTK Query
+                </span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">
+                  TailwindCSS
+                </span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">
+                  Razorpay API
+                </span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">JWT</span>
               </div>
-              <div>
+              {/* <div>
                 <button className="flex items-center justify-center gap-2 bg-[#282727] p-2 rounded-lg px-2 py-1">
                   <FaGithub />
                   <span>Code</span>
                 </button>
+              </div> */}
+              <div className="">
+                <a
+                  href="https://github.com/sibilr1016/cycleKart"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-[#282727] p-2 rounded-lg px-2 py-2 cursor-pointer"
+                >
+                  <FaGithub />
+                  <span>Code</span>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex gap-4 mt-10">
+      {/* <div className="flex gap-4 mt-10">
         <button className=" flex gap-2 px-6  text-blue-500 text-sm font-medium border w-full rounded-lg py-2">
           <TbBrandGithub size={24} />
           <span>See More on GitHub</span>
         </button>
+      </div> */}
+      <div className="flex gap-4 mt-10">
+        <a
+          href="https://github.com/sibilr1016"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex gap-2 px-6 text-blue-500 text-sm font-medium border w-full rounded-lg py-2 items-center justify-center"
+        >
+          <TbBrandGithub size={24} />
+          <span>See More on GitHub</span>
+        </a>
       </div>
     </div>
   );
