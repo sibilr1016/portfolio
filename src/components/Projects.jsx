@@ -3,66 +3,17 @@ import { TbBrandGithub } from "react-icons/tb";
 
 const Projects = () => {
   return (
-    <div className="mt-23 flex flex-col items-center justify-center text-center">
-      <h2 className="text-3xl font-bold mb-5 text-[#fafafa]">
-        My{" "}
-        <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-          Projects
-        </span>
-      </h2>
-      <p className="text-lg text-gray-600 mb-14">
+    <div className=" flex flex-col items-center justify-center text-center">
+      <h2 className="text-3xl font-bold mb-5 text-gray-800">My Projects</h2>
+      <p className="text-md text-gray-600 mb-14">
         Here are some of the projects I've worked on. Each one represents
         different challenges and learning experiences.
       </p>
       <div className="flex flex-col md:flex-row gap-6">
         <div className="flex flex-col gap-8 text-left">
-          <div className="flex h-full flex-col w-full max-w-xs border-2 bg-[#0000004d] rounded-2xl pb-4">
+          <div className="flex flex-col w-full max-w-xs border-2 bg-gray-900 rounded-2xl pb-4">
             <div className="rounded-2xl">
-              <img src="12.png" className="rounded-t-2xl" alt="" />
-            </div>
-            <div className="flex flex-col p-6">
-              <h4 className="text-2xl font-medium mb-2">Portfolio</h4>
-              <p className="font-normal text-sm text-gray-400 mb-6">
-                A responsive React portfolio showcasing my projects, built with
-                Tailwind CSS and integrated with Web3Forms for instant contact
-                submissions.
-              </p>
-              <div className="flex flex-wrap gap-2 text-xs text-gray-800 font-medium mb-4">
-                <span className="bg-stone-50 px-2 py-1  rounded-xl">React</span>
-                <span className="bg-stone-50 px-2 py-1  rounded-xl">
-                  Tailwind CSS
-                </span>
-                <span className="bg-stone-50 px-2 py-1  rounded-xl">
-                  Web3Forms
-                </span>
-                <span className="bg-stone-50 px-2 py-1  rounded-xl">
-                  React Icons
-                </span>
-              </div>
-              {/* <div>
-                <button className="flex items-center justify-center gap-2 bg-[#282727] p-2 rounded-lg px-2 py-1">
-                  <FaGithub />
-                  <span>Code</span>
-                </button>
-              </div> */}
-              <div>
-                <a
-                  href="https://github.com/sibilr1016/portfolio"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-[#282727] p-2 rounded-lg px-2 py-2 cursor-pointer"
-                >
-                  <FaGithub />
-                  <span>Code</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col gap-8 text-left">
-          <div className="flex flex-col w-full max-w-xs border-2 bg-[#0000004d] rounded-2xl pb-4">
-            <div className="rounded-2xl">
-              <img src="13.png" className="rounded-t-2xl" alt="" />
+              {/* <img src="13.png" className="rounded-t-2xl" alt="" /> */}
             </div>
             <div className="flex flex-col p-6">
               <h4 className="text-2xl font-medium mb-2">CycleKart</h4>
@@ -72,19 +23,18 @@ const Projects = () => {
                 users and robust administrative control for store management.
               </p>
               <div className="flex flex-wrap gap-2 text-xs text-gray-800 font-medium mb-4">
-                <span className="bg-stone-50 px-2 py-1  rounded-xl">React</span>
-                <span className="bg-stone-50 px-2 py-1  rounded-xl">Redux</span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">
+                  React.js
+                </span>
                 <span className="bg-stone-50 px-2 py-1  rounded-xl">
                   Node.js
                 </span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">Redux</span>
                 <span className="bg-stone-50 px-2 py-1  rounded-xl">
                   Express
                 </span>
                 <span className="bg-stone-50 px-2 py-1  rounded-xl">
                   MongoDB
-                </span>
-                <span className="bg-stone-50 px-2 py-1  rounded-xl">
-                  Reactjs
                 </span>
                 <span className="bg-stone-50 px-2 py-1  rounded-xl">
                   Redux Toolkit
@@ -120,6 +70,50 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <div className="flex flex-col gap-8 text-left">
+          <div className="flex h-full flex-col w-full max-w-xs border-2 bg-gray-900 rounded-2xl pb-4">
+            <div className="rounded-2xl">
+              {/* <img src="12.png" className="rounded-t-2xl" alt="" /> */}
+            </div>
+            <div className="flex flex-col p-6">
+              <h4 className="text-2xl font-medium mb-2">Portfolio</h4>
+              <p className="font-normal text-sm text-gray-400 mb-6">
+                A responsive React portfolio showcasing my projects, built with
+                Tailwind CSS and integrated with Web3Forms for instant contact
+                submissions.
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs text-gray-800 font-medium mb-4">
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">React</span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">
+                  Tailwind CSS
+                </span>
+                <span className="bg-stone-50 px-2 py-1  rounded-xl">
+                  Web3Forms
+                </span>
+                {/* <span className="bg-stone-50 px-2 py-1  rounded-xl">
+                  React Icons
+                </span> */}
+              </div>
+              {/* <div>
+                <button className="flex items-center justify-center gap-2 bg-[#282727] p-2 rounded-lg px-2 py-1">
+                  <FaGithub />
+                  <span>Code</span>
+                </button>
+              </div> */}
+              <div>
+                <a
+                  href="https://github.com/sibilr1016/portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-[#282727] p-2 rounded-lg px-2 py-2 cursor-pointer"
+                >
+                  <FaGithub />
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       {/* <div className="flex gap-4 mt-10">
         <button className=" flex gap-2 px-6  text-blue-500 text-sm font-medium border w-full rounded-lg py-2">
@@ -132,7 +126,7 @@ const Projects = () => {
           href="https://github.com/sibilr1016"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex gap-2 px-6 text-blue-500 text-sm font-medium border w-full rounded-lg py-2 items-center justify-center"
+          className="flex gap-2 px-6 text-gray-500 text-sm font-medium border w-full rounded-lg py-2 items-center justify-center"
         >
           <TbBrandGithub size={24} />
           <span>See More on GitHub</span>

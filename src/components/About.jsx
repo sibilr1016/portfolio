@@ -5,20 +5,8 @@ import { MdCode } from "react-icons/md";
 
 const About = () => {
   return (
-    <div className="mt-23 flex flex-col items-center justify-center text-center">
-      <h2 className="text-3xl font-bold mb-5 text-[#fafafa]">
-        About{" "}
-        <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-          Me
-        </span>
-      </h2>
-      <p className="text-lg text-gray-400 mb-14">
-        I'm a passionate MERN stack developer with a strong foundation in
-        building scalable web applications. With expertise in both frontend and
-        backend technologies, I create seamless digital experiences that solve
-        real-world problems.
-      </p>
-      <h2 className="text-2xl self-start font-bold mb-5 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+    <div className="mt-14 flex flex-col items-center justify-center text-center">
+      {/* <h2 className="text-2xl self-start font-bold mb-5 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
         My Journey
       </h2>
       <p className="text-md text-left text-gray-400 mb-14">
@@ -51,8 +39,8 @@ const About = () => {
         <li>Performance optimization for fast-loading applications</li>
         <li>Scalable architecture that can grow with business needs</li>
         <li>Secure development practices to protect user data</li>
-      </ul>
-      <h2 className="text-2xl font-bold mb-10 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+      </ul> */}
+      <h2 className="text-2xl font-bold mb-10 text-gray-800">
         Technical Skills
       </h2>
       {/* <div className="flex flex-col md:flex-row gap-8">
@@ -116,29 +104,24 @@ const About = () => {
       </div> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
         {/* Frontend */}
-        <div className="flex flex-col min-w-xs bg-[#0000004d] rounded-2xl p-6 backdrop-blur-sm transition-all hover:scale-[1.02] hover:bg-[#00000066]">
+        <div className="flex flex-col min-w-xs bg-gray-900 rounded-2xl p-6 ">
           <div className="h-14 w-14 flex justify-center items-center rounded-xl mb-3">
             <CiGlobe size={35} className="text-blue-400" />
           </div>
           <h4 className="text-xl font-semibold mb-4 text-white">Frontend</h4>
           <ul className="font-light text-gray-300 space-y-2">
             <li>React.js</li>
-            <li>Redux</li>
-            <li>Redux Toolkit</li>
-            <li>RTK Query</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Tailwind CSS</li>
-            <li>React Hot Toast</li>
-            <li>React Toastify</li>
-            <li>React Bootstrap</li>
+            <li>Next.js</li>
             <li>JavaScript (ES6+)</li>
-            <li>Web3Forms</li>
+            <li>Tailwind CSS</li>
+            <li>Redux Toolkit</li>
+            <li>Context API </li>
+            <li>RTK Query</li>
           </ul>
         </div>
 
         {/* Backend */}
-        <div className="flex flex-col bg-[#0000004d] rounded-2xl p-6 backdrop-blur-sm transition-all hover:scale-[1.02] hover:bg-[#00000066]">
+        <div className="flex flex-col bg-gray-900 rounded-2xl p-6 ">
           <div className="h-14 w-14 flex justify-center items-center rounded-xl mb-3">
             <FiServer size={35} className="text-blue-400" />
           </div>
@@ -146,27 +129,28 @@ const About = () => {
           <ul className="font-light text-gray-300 space-y-2">
             <li>Node.js</li>
             <li>Express.js</li>
+            <li>Auth.js</li>
             <li>JWT</li>
             <li>RESTful APIs</li>
-            <li>SendGrid (Email API)</li>
-            <li>Razorpay API (Payments)</li>
+            <li>Twilio</li>
+            <li>Razorpay API </li>
           </ul>
         </div>
 
         {/* Database */}
-        <div className="flex flex-col bg-[#0000004d] rounded-2xl p-6 backdrop-blur-sm transition-all hover:scale-[1.02] hover:bg-[#00000066]">
+        <div className="flex flex-col bg-gray-900 rounded-2xl p-6 ">
           <div className="h-14 w-14 flex justify-center items-center rounded-xl mb-3">
             <FiDatabase size={35} className="text-blue-400" />
           </div>
           <h4 className="text-xl font-semibold mb-4 text-white">Database</h4>
           <ul className="font-light text-gray-300 space-y-2">
             <li>MongoDB</li>
-            <li>Mongoose</li>
+            <li>Supabase</li>
           </ul>
         </div>
 
         {/* Tools */}
-        <div className="flex flex-col bg-[#0000004d] rounded-2xl p-6 backdrop-blur-sm transition-all hover:scale-[1.02] hover:bg-[#00000066]">
+        <div className="flex flex-col bg-gray-900 rounded-2xl p-6 ">
           <div className="h-14 w-14 flex justify-center items-center rounded-xl mb-3">
             <FaTools size={35} className="text-blue-400" />
           </div>

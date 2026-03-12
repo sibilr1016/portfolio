@@ -34,44 +34,39 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="mt-23 flex flex-col items-center justify-center text-center"
+      className="mt-14 flex flex-col items-center justify-center text-center"
     >
-      <h2 className="text-3xl font-bold mb-5 text-[#fafafa]">
-        Get In{" "}
-        <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-          Touch
-        </span>
-      </h2>
-      <p className="text-lg text-gray-600 mb-14">
+      <h2 className="text-3xl font-bold mb-5 text-gray-800">Get In Touch</h2>
+      <p className="text-md text-gray-600 mb-14">
         I'm always open to new opportunities and collaborations. Feel free to
         reach out!
       </p>
       <div className="flex flex-col gap-6 mb-10">
         <div className="flex flex-col md:flex-row gap-8 text-left">
-          <div className="flex flex-col items-center justify-center w-full min-w-xs md:min-w-[200px] bg-[#0000004d] rounded-2xl p-4">
+          <div className="flex flex-col items-center justify-center w-full min-w-xs md:min-w-[200px] bg-gray-900 rounded-2xl p-4">
             <div className="bg-blue-50 mb-3 h-14 w-14 flex justify-center items-center  rounded-full ">
-              <MdOutlineMailOutline size={30} className="text-blue-400" />
+              <MdOutlineMailOutline size={30} className="text-gray-400" />
             </div>
             <p className="font-bold">Email</p>
             <p className="font-medium">sibilr1016@gmail.com</p>
           </div>
-          <div className="flex flex-col items-center justify-center w-full min-w-xs md:min-w-[200px] bg-[#0000004d] rounded-2xl p-4">
+          <div className="flex flex-col items-center justify-center w-full min-w-xs md:min-w-[200px] bg-gray-900 rounded-2xl p-4">
             <div className="bg-blue-50 mb-3 h-14 w-14 flex justify-center items-center  rounded-full ">
-              <FiPhone size={30} className="text-blue-400" />
+              <FiPhone size={30} className="text-gray-400" />
             </div>
             <p className="font-bold">Phone</p>
             <p className="font-medium">+91 9497898614</p>
           </div>
-          <div className="flex flex-col items-center justify-center w-full min-w-xs md:min-w-[200px] bg-[#0000004d] rounded-2xl p-4">
+          <div className="flex flex-col items-center justify-center w-full min-w-xs md:min-w-[200px] bg-gray-900 rounded-2xl p-4">
             <div className="bg-blue-50 mb-3 h-14 w-14 flex justify-center items-center  rounded-full ">
-              <CiLocationOn size={30} className="text-blue-400" />
+              <CiLocationOn size={30} className="text-gray-400" />
             </div>
             <p className="font-bold">Location</p>
             <p className="font-medium">Trivandrum, Kerala</p>
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full max-w-xs md:max-w-3xl items-center justify-center bg-[#0000004d] rounded-2xl p-4">
+      <div className="flex flex-col w-full max-w-xs md:max-w-3xl items-center justify-center bg-gray-900 rounded-2xl p-4">
         <form action="" className="w-full" onSubmit={onSubmit}>
           <div className="flex flex-col text-left">
             <div className="flex flex-col gap-4 mb-4">
@@ -83,7 +78,7 @@ const Contact = () => {
                     name="name"
                     required
                     placeholder="Your name"
-                    className="bg-[#121212] px-2 py-1 border border-gray-500/50 rounded-md mt-2"
+                    className="bg-gray-200 text-gray-900 text-sm placeholder:text-gray-900 px-2 py-1 border border-gray-500/50 rounded-md mt-2"
                   />
                 </div>
                 <div className="flex flex-1 flex-col text-left">
@@ -93,7 +88,7 @@ const Contact = () => {
                     name="email"
                     required
                     placeholder="Your email"
-                    className="bg-[#121212] px-2 py-1 border border-gray-500/50 rounded-md mt-2"
+                    className="text-gray-900 bg-gray-200 text-sm placeholder:text-gray-900 px-2 py-1 border border-gray-500/50 rounded-md mt-2"
                   />
                 </div>
               </div>
@@ -103,7 +98,7 @@ const Contact = () => {
               name="subject"
               required
               placeholder="Subject"
-              className="bg-[#121212] px-2 py-1 border border-gray-500/50 rounded-md mt-2"
+              className="text-gray-900 text-sm placeholder:text-gray-900 bg-gray-200 px-2 py-1 border border-gray-500/50 rounded-md mt-2"
             />
             <label htmlFor="" className="mt-4">
               Message
@@ -113,12 +108,12 @@ const Contact = () => {
               required
               placeholder="Your message"
               rows={5}
-              className="bg-[#121212] px-2 py-1 border border-gray-500/50 rounded-md mt-2"
+              className="bg-gray-200 text-gray-900 text-sm placeholder:text-gray-900 px-2 py-1 border border-gray-500/50 rounded-md mt-2"
             />
           </div>
           <button
             type="submit"
-            className="flex mt-6 items-center justify-center gap-2 px-8 py-3 rounded-lg text-sm font-medium bg-blue-400/80 mb-4"
+            className="flex mt-6 items-center justify-center gap-2 px-8 py-3 rounded-lg text-sm font-medium bg-gray-800 mb-4"
           >
             <BsSend />
             <span>Send Message</span>
